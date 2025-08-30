@@ -1,7 +1,7 @@
 <?php
 // データベースへ接続するために必要な情報
 // ホストはDBコンテナ
-$host = 'localhost';
+$host = 'mysql';
 // mysql接続用のユーザー
 $username = 'data_user';
 $password = 'data';

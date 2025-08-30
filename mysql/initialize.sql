@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS `Party`;
+CREATE USER IF NOT EXISTS 'data_user'@'localhost' IDENTIFIED BY 'data';
 GRANT ALL PRIVILEGES ON * . * TO 'data_user'@'localhost';
 
 DROP DATABASE IF EXISTS Party;
