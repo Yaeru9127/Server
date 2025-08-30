@@ -3,8 +3,8 @@
 // ホストはDBコンテナ
 $host = 'mysql';
 // mysql接続用のユーザー
-$username = 'data_user';
-$password = 'data';
+$username = 'root';
+$password = 'password';
 $database = 'Party';
 
 // データベースへ接続するためのクラス生成
